@@ -295,6 +295,19 @@ ul {
 .button-gradient:hover:before {
   border-color: #ffffff4d;
 }
+.claimSec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputField {
+  height: 64px;
+  border-radius: 16px;
+  background: #3b4d5e;
+  padding: 10px;
+  font-size: 22px;
+  color: black;
+}
 .pulse {
   animation: pulse-animation 1s ease-in-out infinite !important;
 }
@@ -587,7 +600,7 @@ h1 {
   user-select: none;
 }
 .claim-item {
-    align-items: center;
+  align-items: center;
   background: #15140c;
   border-radius: 20px;
   cursor: pointer;
